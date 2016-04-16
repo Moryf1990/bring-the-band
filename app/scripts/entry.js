@@ -50,10 +50,10 @@ const Vote = React.createClass({
 });
 
 const router = (
-	<Router history = {hashHistory}>
-		<Route path = "/" component={Home}/>
-		<Route path = "/search" component={Search}/>
-		<Route path = "/vote" component={Vote}/>
+	<Router history={hashHistory}>
+		<Route path="/" component={Home}/>
+		<Route path="/search" component={Search}/>
+		<Route path="/vote" component={Vote}/>
 	</Router>
 )
 

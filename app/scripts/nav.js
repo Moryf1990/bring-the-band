@@ -5,9 +5,9 @@ const Nav = React.createClass({
 	render: function() {
 		return (
 			<nav>
-				<Link to = "/">Home</Link>
-				<Link to = "/search">Search</Link>
-				<Link to = "/vote">Vote</Link>
+				<Link to="/">Home</Link>
+				<Link to="/search">Search</Link>
+				<Link to="/vote">Vote</Link>
 			</nav>
 		);
 	}
