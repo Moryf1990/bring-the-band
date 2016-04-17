@@ -19,7 +19,7 @@ const Home = React.createClass({
 		return (
 			<div>
 				<Nav/>
-				<h1>Welcome to the Bands</h1>
+				<h1 className="homeHeader">Welcome to the Bands</h1>
 			</div>
 		)
 	}
@@ -30,9 +30,9 @@ const Search = React.createClass({
 		return (
 			<div>
 				<Nav/>
-				<h1>Search Here</h1>
-				<input type="text" placeholder="Enter Band"/>
-				<button>Search</button>
+				<h1 className="searchHeader">Search Here</h1>
+				<input className="searchInput" type="text" placeholder="Enter Band"/>
+				<button className="searchButton">Search</button>
 			</div>
 		);
 	}

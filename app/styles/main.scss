@@ -2,5 +2,32 @@
 
 body {
   background: $light-grey;
+  margin: 0 auto;
 }
 
+.navBar {
+	text-align: center;
+	background: #fff;
+	padding: 1em;
+}
+
+.navLink {
+	padding-left: 1em;
+	text-decoration: none;
+}
+
+.homeHeader {
+	text-align: center;
+}
+
+.searchHeader {
+	text-align: center;
+}
+
+// .searchButton {
+// 	margin-left: 2em;
+// }
+
+.searchInput {
+	margin-left: 2em;
+}
