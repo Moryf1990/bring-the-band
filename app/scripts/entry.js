@@ -33,7 +33,7 @@ const Search = React.createClass({
 				<h1 className="searchHeader">Search Here</h1>
 				<div className="searchContent">
 					<input className="searchInput" type="text" placeholder="Enter Band"/>
-					<button className="searchButton">Search</button>
+					<button className="searchButton" onClick="searchBands">Search</button>
 				</div>
 			</div>
 		);
@@ -45,9 +45,18 @@ const Vote = React.createClass({
 		return (
 			<div>
 				<Nav/>
-				<h1>Here is where you vote</h1>
+				<h1 className="voteHeader">Here is where you vote</h1>
 			</div>
 		);
+	}
+});
+
+const searchBands = React.createClass({
+	render: function() {
+		var selectedAlbum = this.props.id;
+		if(searchInput.value !== null) {
+			return 'https://api.spotify.com/v1/search?q=bob&type=artist' + selectedAlbum;
+		}
 	}
 });
 
