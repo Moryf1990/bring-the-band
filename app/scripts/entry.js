@@ -31,8 +31,10 @@ const Search = React.createClass({
 			<div>
 				<Nav/>
 				<h1 className="searchHeader">Search Here</h1>
-				<input className="searchInput" type="text" placeholder="Enter Band"/>
-				<button className="searchButton">Search</button>
+				<div className="searchContent">
+					<input className="searchInput" type="text" placeholder="Enter Band"/>
+					<button className="searchButton">Search</button>
+				</div>
 			</div>
 		);
 	}

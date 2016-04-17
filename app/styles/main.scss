@@ -24,10 +24,23 @@ body {
 	text-align: center;
 }
 
-// .searchButton {
-// 	margin-left: 2em;
-// }
+.searchButton {
+	background: lightblue;
+	color: darkblue;
+	border: none;
+	border-radius: 0.5em;
+	font-weight: bold;
+}
+
+.searchButton:hover {
+	background: darkblue;
+	color: lightblue;
+}
 
 .searchInput {
-	margin-left: 2em;
+	margin-right: 2em;
+}
+
+.searchContent {
+	text-align: center;
 }
