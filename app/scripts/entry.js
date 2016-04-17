@@ -55,6 +55,10 @@ const searchBands = React.createClass({
 	render: function() {
 		var selectedAlbum = this.props.id;
 		if(searchInput.value !== null) {
+			let newBand = {
+				name: this.refs.name,
+				image: this.refs.image
+			}
 			return 'https://api.spotify.com/v1/search?q=bob&type=artist' + selectedAlbum;
 		}
 	}
